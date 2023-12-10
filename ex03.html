@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Access Manager</title>
+  </head>
+  <body>
+    <form action="">
+      <table width="50%" align="center">
+        <tr>
+          <td width="20%">
+            <label for="username">Username</label>
+          </td>
+          <td>
+            <input type="text" id="username" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="password">Password</label>
+          </td>
+          <td>
+            <input type="password" id="password" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="city">City of</label>
+          </td>
+          <td>
+            <input type="text" id="city" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="employment">Employment</label>
+          </td>
+          <td>
+            <input type="text" id="employment" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="web_server">Web server</label>
+          </td>
+          <td>
+            <select id="web_server">
+              <option value="">Choose server</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Role</label>
+          </td>
+          <td>
+            <div>
+              <label> <input type="radio" name="role" /> Admin </label>
+            </div>
+            <div>
+              <label> <input type="radio" name="role" /> Engineer </label>
+            </div>
+            <div>
+              <label> <input type="radio" name="role" /> Manager </label>
+            </div>
+            <div>
+              <label> <input type="radio" name="role" /> Guest </label>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Single sign-on</label>
+          </td>
+          <td>
+            <div>
+              <label> <input type="checkbox" name="single_on" /> Mail </label>
+            </div>
+            <div>
+              <label>
+                <input type="checkbox" name="single_on" /> Payroll
+              </label>
+            </div>
+            <div>
+              <label>
+                <input type="checkbox" name="single_on" /> Self-Service
+              </label>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button>Login</button>
+            <button type="reset">Reset</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
